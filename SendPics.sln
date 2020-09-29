@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendPics", "SendPics\SendPics.csproj", "{09BF2194-F760-4EBA-9AAA-F7275500F153}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeBot", "TimeBot\TimeBot.csproj", "{9473CEDB-0215-45D8-876C-3251BB61F95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivatCurrency", "PrivatCurrency\PrivatCurrency.csproj", "{30A343D1-DB02-48BD-9401-6BEEB943F7B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{09BF2194-F760-4EBA-9AAA-F7275500F153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09BF2194-F760-4EBA-9AAA-F7275500F153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09BF2194-F760-4EBA-9AAA-F7275500F153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9473CEDB-0215-45D8-876C-3251BB61F95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9473CEDB-0215-45D8-876C-3251BB61F95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9473CEDB-0215-45D8-876C-3251BB61F95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9473CEDB-0215-45D8-876C-3251BB61F95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A343D1-DB02-48BD-9401-6BEEB943F7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A343D1-DB02-48BD-9401-6BEEB943F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A343D1-DB02-48BD-9401-6BEEB943F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A343D1-DB02-48BD-9401-6BEEB943F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
