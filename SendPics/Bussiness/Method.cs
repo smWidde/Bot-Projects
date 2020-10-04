@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -26,7 +24,7 @@ namespace SendPics
                 return response;
             }
         }
-        async public Task SendPhotoIputFile(long ChatID, string pathToPhoto, string catprion = "")
+        async public Task SendPhotoIputFile(long ChatID, string pathToPhoto, string caption = "")
         {
             using (MultipartFormDataContent form = new MultipartFormDataContent())
             {
@@ -34,7 +32,7 @@ namespace SendPics
                 string fileName = pathToPhoto.Split('\\').Last();
 
                 form.Add(new StringContent(ChatID.ToString(), Encoding.UTF8), "chat_id");
-                form.Add(new StringContent(catprion.ToString(), Encoding.UTF8), "caption");
+                form.Add(new StringContent(caption.ToString(), Encoding.UTF8), "caption");
                 using (FileStream fileStream = new FileStream(pathToPhoto, FileMode.Open, FileAccess.Read))
                 {
                     form.Add(new StreamContent(fileStream), "photo", fileName);

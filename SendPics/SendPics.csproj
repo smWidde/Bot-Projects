@@ -60,12 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Category - Copy %282%29.cs" />
-    <Compile Include="Category - Copy %283%29.cs" />
-    <Compile Include="Category - Copy %284%29.cs" />
-    <Compile Include="Category - Copy.cs" />
-    <Compile Include="Category.cs" />
-    <Compile Include="Method.cs" />
+    <Compile Include="Bussiness\StateOfUpload.cs" />
+    <Compile Include="Model\TgContext.cs" />
+    <Compile Include="Model\Image.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Bussiness\Method.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
