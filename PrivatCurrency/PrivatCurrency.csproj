@@ -59,6 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bussiness\StateOfUpload.cs" />
+    <Compile Include="Model\DB\Interval.cs" />
     <Compile Include="Model\DB\TgContext.cs" />
     <Compile Include="Model\DB\User.cs" />
     <Compile Include="Model\Local\Currency.cs" />

@@ -21,7 +21,6 @@ namespace SendPics
         static TgContext cont;
         static List<StateUser> uploads;
         static Method meth;
-        static InlineKeyboardMarkup myInlineKeyboard;
         static List<string> categories;
         static void Main(string[] args)
         {
